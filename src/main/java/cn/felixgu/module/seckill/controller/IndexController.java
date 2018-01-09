@@ -20,6 +20,6 @@ public class IndexController {
 
     @RequestMapping(value = "/")
     public Object test() {
-        return new ArrayList<String>().add("asd");
+        return new ArrayList<String>().add("asdtest");
     }
 }
